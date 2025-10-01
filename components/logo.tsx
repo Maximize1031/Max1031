@@ -12,10 +12,10 @@ export default function Logo({ variant = "dark", className = "" }: LogoProps) {
         {/* Using the exact shapes from the PNG */}
         <svg viewBox="0 0 140 80" xmlns="http://www.w3.org/2000/svg" className="h-full w-full">
           {/* Light blue triangle */}
-          <path d="M70,10 L110,60 L70,60 Z" fill="#67c4ff" />
+          <path d="M75,60 L75,25 L105,60 Z" fill="#00d4ff" />
 
           {/* Dark blue parallelogram */}
-          <path d="M30,60 L70,60 L70,10 L50,60 Z" fill="#4169e1" />
+          <path d="M45,60 L65,25 L75,25 L75,60 Z" fill="#0066ff" />
         </svg>
       </div>
       <div className={`font-bold text-lg ${textColor}`}>
